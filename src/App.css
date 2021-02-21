@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+
+}
+.sidenav {
+  width:  25vw;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+  color: honeydew;
+  font-size: 1.2rem;
+  padding: 3em;
+}
+.navitem, .contents, .sidenav {
+  border: 1px solid black
+}
+
+.contents {
+  flex: 1;
+}
+
+.navitem {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.navitem-text {
+  text-decoration: none;
+  color:honeydew
+}
+
+.active{
+  font-weight: bolder;
+}
+
+.display-picture{
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.home{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing-effect{
+  margin: 5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.social a{
+  margin: 1rem;
+  font-size: 2rem;
+  color: grey;
+}
+
+.about{
+  margin: 2rem;
+}
+
+.education{
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.widecard {
+  border: 0px solid honeydew;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.widecard:hover
+{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.skills{
+  margin: 2rem;
+}
+
+.skills li{
+  list-style: none;
+  padding: 1rem;
+}
+
+.contact {
+  margin: 2rem;
+  padding: 1rem;
+}
